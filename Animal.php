@@ -62,5 +62,6 @@ $platon = new Horse("Platon", 10,null);
 $zevs = new Pegasus("Zews",11,null);
 $barsik = new Cat("Barsik",4,null,"Anatoly");
 $kesha = new Bird("Kesha",5,null);
+echo $zevs->fly();
 echo $zevs->speak();
 ?>
